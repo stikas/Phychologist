@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>MyBiz Bootstrap Theme</title>
+    <title>Μαρία Γκιόκα</title>
     <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
     <meta name="keywords" content="maria gkioka, Μαρία Γκιώκα, ψυχολόγος">
 
-    <link href="https://../fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="/css/flexslider.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
@@ -84,9 +83,9 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.flexslider.js"></script>
     <script src="/js/jquery.inview.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
     <script src="/js/script.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="{{ asset('js/share.js') }}"></script>
 </body>
 
 </html>

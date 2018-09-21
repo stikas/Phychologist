@@ -3,7 +3,7 @@
         <div class="container">
 
             <div class="navbar-header">
-                <a href="index.html" class="navbar-brand">MyBiz</a>
+                <a href="{{ url('/') }}" class="navbar-brand">Μαρία Γκιόκα</a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
                     <span class="sr-only">Toggle</span>
                     <span class="icon-bar"></span>

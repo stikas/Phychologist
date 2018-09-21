@@ -6,12 +6,6 @@
                 <div class="footer-left">
                     &copy; Μαρία Γκιόκα. All Rights Reserved
                     <div class="credits">
-                        <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyBiz
-          -->
                         Designed by <a href="http://sandk-developers.blogspot.com/" target="_blank">S&K Developers</a>
                     </div>
                 </div>

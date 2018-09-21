@@ -27,9 +27,9 @@
                     <h3><span>follow us</span></h3>
                     <div class="">
                         <ul>
-                            <a href=""><img src="images/facebook.png" alt=""></a>
-                            <img src="images/linkedin.png" alt="">
-                            <img src="images/twitter.png" alt="">
+                            <a href=""><img src="/images/facebook.png" alt=""></a>
+                            <img src="/images/linkedin.png" alt="">
+                            <img src="/images/twitter.png" alt="">
                         </ul>
                     </div>
                 </div>

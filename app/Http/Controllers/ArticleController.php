@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Article;
 use Session;
-
+use Jorenvh\Share\Share;
 class ArticleController extends Controller
 {
     /**
@@ -38,6 +38,7 @@ class ArticleController extends Controller
     public function show($id)
     {
         $article = Article::where('id', $id)->where('is_live', 1)->firstOrFail();
+        
         return view('article.show')->with(compact('article'));
     }
 }
