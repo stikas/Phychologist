@@ -107,7 +107,10 @@
             </div> -->
         </div>
 
-        <div class="cover"></div>
+        
+        <section class="bg-3" id="section4">
+
+    </section>
 
     </div>
 

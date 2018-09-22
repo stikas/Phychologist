@@ -76,7 +76,8 @@
 
     @include('partials.bottom_footer')
 
-
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="{{ asset('js/share.js') }}"></script>
 
     <!-- jQuery -->
     <script src="/js/jquery.min.js"></script>
@@ -84,8 +85,7 @@
     <script src="/js/jquery.flexslider.js"></script>
     <script src="/js/jquery.inview.js"></script>
     <script src="/js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="{{ asset('js/share.js') }}"></script>
+
 </body>
 
 </html>

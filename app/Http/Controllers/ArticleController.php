@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Article;
 use Session;
-use Jorenvh\Share\Share;
+
 class ArticleController extends Controller
 {
     /**

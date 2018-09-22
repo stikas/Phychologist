@@ -1388,3 +1388,18 @@ i {
 .caption h4, .caption p {
 	color: #587573;
 }
+
+section {
+  color: #ffffff;
+  min-height: 100px;
+  height: auto !important;
+  height: 100%;
+  padding-top:100px;
+}
+.bg-3 {
+	background-image: url(../images/about/about2.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
