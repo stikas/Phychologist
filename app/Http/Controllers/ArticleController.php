@@ -38,7 +38,31 @@ class ArticleController extends Controller
     public function show($id)
     {
         $article = Article::where('id', $id)->where('is_live', 1)->firstOrFail();
-        
-        return view('article.show')->with(compact('article'));
+        $articles = Article::where('is_live', 1)->get();
+        return view('article.show')->with(compact('article', 'articles'));
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function sessions()
+    {
+        $articles = Article::where('is_live', 1)->get();
+
+        return view('sessions')->with(compact('articles'));
+    }
+
+   /**
+     * Display the specified resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function cv()
+    {
+        $articles = Article::where('is_live', 1)->get();
+
+        return view('cv')->with(compact('articles'));
     }
 }

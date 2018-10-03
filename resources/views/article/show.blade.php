@@ -7,7 +7,7 @@
 					<div class="page-header">
 						<h1>{{$article->title}}</h1>
 						<p>ΤΕΛ. ΑΝΑΝΕΩΣΗ: <span class="glyphicon glyphicon-time"></span>{{$article->updated_at->format('d-m-Y')}}</p>
-						 {!! Share::currentPage()->facebook()->twitter()->googlePlus()->linkedin() !!}
+						 {!! Share::currentPage()->facebook()->twitter()->linkedin() !!}
 					</div>
 				</div>
 			</div>
@@ -20,7 +20,11 @@
 
 					<!-- Image -->
 					<figure class="margin-b-2">
+						@if($article->media_type == "video")
+						<iframe width="660" height="355" src='{!! $article->video_url !!}' frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						@else
 						<img class="img-responsive big_article_image" src="/uploaded_images/{{$article->image_name}}" alt="">
+						@endif
 						<figcaption class="margin-t-h">
 								
 						</figcaption>

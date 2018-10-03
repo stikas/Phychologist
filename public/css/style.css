@@ -444,7 +444,7 @@ textarea:focus {
 }
 
 #about .about-right-boot:before {
-	content: "\f080";
+	content: "\f02e";
 	font-family: 'FontAwesome';
 	font-size: 45px;
 	padding: 65px 30px 0 0;
@@ -475,8 +475,16 @@ textarea:focus {
 	color: #8e8e8e;
 }
 
+.about-right-wrapper ul {
+	color: #8e8e8e;
+}
+
+.about-right-wrapper li {
+	padding-bottom: 7px;
+}
+
 #about .about-right-best:before {
-	content: "\f201";
+	content: "\f02e";
 	font-family: 'FontAwesome';
 	font-size: 45px;
 	padding: 65px 30px 0 0;
@@ -485,7 +493,7 @@ textarea:focus {
 }
 
 #about .about-right-support:before {
-	content: "\f025";
+	content: "\f02e";
 	font-family: 'FontAwesome';
 	font-size: 45px;
 	padding: 65px 30px 0 0;
@@ -775,6 +783,7 @@ textarea:focus {
 .services-style-one .service-block {
 	position: relative;
 	margin-bottom: 40px;	
+	max-height: 75px;
 }
 
 .services-style-one .services-column .content-outer {
@@ -1091,57 +1100,57 @@ textarea:focus {
 }
 
 /*Get In Touch*/
-#get-touch {
+#get-in-touch {
 	margin-top: 100px;
 }
 
-#get-touch .get-touch-heading {
+#get-in-touch .get-in-touch-heading {
 	text-align: center;
 }
 
-#get-touch .get-touch-heading h2 {
+#get-in-touch .get-in-touch-heading h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	font-size: 36px;
 	text-transform: uppercase;
 }
 
-#get-touch .get-touch-heading p {
+#get-in-touch .get-in-touch-heading p {
 	margin-top: 20px;
 	line-height: 25px;
 	color: #8e8e8e;
 	margin-bottom: 50px;
 }
 
-#get-touch .content {
+#get-in-touch .content {
 	margin-top: 50px;
 }
 
-#get-touch .content .form input {
+#get-in-touch .content .form input {
 	height: 50px;
 	width: 100%;
 	border-color: #ebebeb;
 }
 
-#get-touch .content .form textarea {
+#get-in-touch .content .form textarea {
 	width: 100%;
 	height: 180px;
 	border-color: #ebebeb;
 	margin-top: 20px;
 }
 
-#get-touch .content .form .submit {
+#get-in-touch .content .form .submit {
 	text-align: center;
 }
 
-#get-touch .content .form .submit .btn {
+#get-in-touch .content .form .submit .btn {
 	margin-top: 25px;
 	background-color: #587573;
 	color: #fff;
 	border-color: #86A69B;
 }
 	
-#get-touch .content .form .submit .btn:hover {
+#get-in-touch .content .form .submit .btn:hover {
 	background-color: #C9D5C9;
 	color: #587573;
 }
@@ -1247,7 +1256,7 @@ textarea:focus {
 }
 
 #footer .footer-heading ul > li > a:before {
-	content: "\f10c";
+	content: "\f02e";
 	font-family: 'FontAwesome';
 	padding-right: 10px;
 }

@@ -25,6 +25,14 @@
                     </div>
 
                     <div class="form-group">
+                      {!! Form::label('media_type', 'Media Type:',['class'=>'form-label']) !!}
+                      <select value="" class="form-control" name="media_type">
+                        <option {{ $article->media_type == 'image' ? 'selected="selected"' : '' }} value="image">Image</option>
+                        <option {{ $article->media_type == 'video' ? 'selected="selected"' : '' }} value="video">Video</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group">
                         {!! Form::label('title', 'Title',['class'=>'form-label']) !!}
                         {!! Form::text('title', $article->title,array('required'=>'required', 'class'=>'form-control')) !!}
                     </div>
@@ -32,6 +40,11 @@
                     <div class="form-group">
                         {!! Form::label('image_file', 'Image Upload:',['class'=>'form-label']) !!}
                         {!! Form::file('image', array('class' => 'image')) !!}
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::label('video', 'Video url:',['class'=>'form-label']) !!}
+                        {!! Form::text('video', $article->video_url , array( 'class'=>'form-control')) !!}
                     </div>
 
                     <div class="form-group">

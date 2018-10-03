@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Μαρία Γκιόκα</title>
-    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-    <meta name="keywords" content="maria gkioka, Μαρία Γκιώκα, ψυχολόγος">
+    <meta name="description" content="Το Κέντρο Συμβουλευτικής Υποστήριξης και Ψυχοκοινωνικής Έρευνας Mirroring παρέχει ολιστική θεραπευτική παρέμβαση και υποστήριξη σε εφήβους, ενήλικες και οικογένειες.">
+    <meta name="keywords" content="maria gkioka, Μαρία Γκιόκα, ψυχολόγος, Κέντρο Συμβουλευτικής Υποστήριξης, Mirroring, Ψυχοκοινωνική Έρευνα">
 
     <link rel="stylesheet" href="/css/flexslider.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -16,12 +16,10 @@
 </head>
 
 <body id="top" data-spy="scroll">
-    <!--top header-->
 
     <header id="home">
 
         @include('partials.top_nav')
-        <!--main-nav-->
 
         @include('partials.nav')
 
@@ -39,52 +37,19 @@
 
     @yield('content')
 
-    <!--client-->
-<!--     <div id="client">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-sm-4 col-md-2">
-                    <span></span><img src="images/client/client1.png" alt="">
-                </div>
-
-                <div class="col-sm-4 col-md-2">
-                    <span></span><img src="images/client/client2.png" alt="">
-                </div>
-
-                <div class="col-sm-4 col-md-2">
-                    <span></span><img src="images/client/client3.png" alt="">
-                </div>
-
-                <div class="col-sm-4 col-md-2">
-                    <span></span><img src="images/client/client4.png" alt="">
-                </div>
-
-                <div class="col-sm-4 col-md-2">
-                    <span></span><img src="images/client/client5.png" alt="">
-                </div>
-
-                <div class="col-sm-4 col-md-2">
-                    <span></span><img src="images/client/client6.png" alt="">
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-
-    @include('partials.footer')
+    @include('partials.footer', ['articles' => $articles])
 
     @include('partials.bottom_footer')
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="{{ asset('js/share.js') }}"></script>
 
-    <!-- jQuery -->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.flexslider.js"></script>
     <script src="/js/jquery.inview.js"></script>
     <script src="/js/script.js"></script>
+
 
 </body>
 

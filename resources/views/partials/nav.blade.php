@@ -15,14 +15,14 @@
             <div class="navbar-collapse collapse" id="ftheme">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ url('/') }}/#home">Αρχικη Σελιδα</a></li>
-                    <li><a href="{{ url('/') }}/#about">Σχετικα</a></li>
+                    <li><a href="{{ url('/') }}/#home">Αρχικη</a></li>
                     <li><a href="{{ url('/') }}/#service">Υπηρεσιες</a></li>
+                    <li><a href="{{ url('/cv') }}">Βιογραφικο</a></li>
                     <li><a href="{{ url('/articles') }}">Αρθρα</a></li>
-                    <li><a href="{{ url('/') }}/#get-touch">Επικοινωνια</a></li>
+                    <li><a href="{{ url('/') }}/#get-in-touch">Επικοινωνια</a></li>
                     @if (Auth::check())
-                    <li><a href="/cms">CMS</a></li>
-                    <li><a href="/logout">Logout</a></li>
+                    <li><a href="{{ url('/cms') }}">CMS</a></li>
+                    <li><a href="{{ url('/logout') }}">Logout</a></li>
                     @endif
                 </ul>
 

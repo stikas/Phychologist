@@ -16,6 +16,8 @@ class ArticlesTableSeeder extends Seeder
             'title' => str_random(10),
             'article' => str_random(1000),
             'image_name' => str_random(10),
+            'description' => str_random(10),
+            'isLive' => true
         ]);
     	}
     }

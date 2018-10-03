@@ -33,4 +33,8 @@ Route::group(['middleware' => 'web'], function () {
 
 	Route::get('articles', 'ArticleController@index');
     Route::get('article/{id}', 'ArticleController@show');
+
+    Route::get('sessions', 'ArticleController@sessions');
+    Route::get('cv', 'ArticleController@cv');
+
 });

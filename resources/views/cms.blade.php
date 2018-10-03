@@ -10,7 +10,6 @@
             <th>Title</th>
             <th>Body</th>
             <th>Description</th>
-            <th>Image name</th>
             <th>Is Live</th>
             <th style="min-width: 100px;">Actions</th>
 
@@ -23,7 +22,6 @@
                 <td>{{$article->title}}</td>
                 <td style="max-width: 850px">{{$article->article}}</td>
                 <td style="width: 100px">{{$article->description}}</td>
-                <td>{{$article->image_name}}</td>
                 <td>@if($article->is_live)  yes  @else no @endif</td>
                 <td>
                     <a href="article/{{$article->id}}"><button class="btn btn-success" type="button" style="text-decoration: none; float: left; margin-right: 5px;">View</button></a>

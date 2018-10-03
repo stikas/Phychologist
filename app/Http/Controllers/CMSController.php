@@ -26,7 +26,8 @@ class CMSController extends Controller
      */
     public function index()
     {
-        $articles = Article::all();
+        $articles = Article::orderBy('created_at', 'desc')
+                ->get();
         return view('cms')->with(compact('articles'));
     }
 
@@ -71,6 +72,8 @@ class CMSController extends Controller
         $article->article = $request->article;
         $article->description = $request->description;
         $article->is_live = $request->isLive ? 1 : 0;
+        $article->media_type = $request->media_type;
+        $article->video_url = $request->video;
 
         $article->save();
 
@@ -115,6 +118,8 @@ class CMSController extends Controller
         $article->article = $request->article;
         $article->description = $request->description;
         $article->is_live = $request->isLive ? 1 : 0;
+        $article->media_type = $request->media_type;
+        $article->video_url = $request->video;
 
         $article->save();
        

@@ -1,8 +1,170 @@
-@extends('layouts.base')
+@extends('layouts.base', ['articles' => $articles])
 @section('content')
     
     @include('partials.slider')
     
+    <!--service-->
+    <div id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-md-offset-3">
+                    <div class="service-heading">
+                        <h2>Υπηρεσιες</h2>
+                        <p>Το Κέντρο Συμβουλευτικής Υποστήριξης και Ψυχοκοινωνικής Έρευνας Mirroring παρέχει ολιστική θεραπευτική παρέμβαση και υποστήριξη σε εφήβους, ενήλικες και οικογένειες.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--services wrapper-->
+        <section class="services-style-one">
+            <div class="outer-box clearfix">
+
+                <div class="services-column">
+                    <div class="content-outer">
+                        <div class="row clearfix">
+                            <center><h3>Θέματα Yποστήριξηs</h3></center>
+                            <br>
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Αγχώδεις Διαταραχές και Κρίση Πανικού</h4>
+                                    <!-- <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. </div> -->
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Φοβίες</h4>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Κατάθλιψη</h4>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Διαχείριση Απώλειας - Πένθους</h4>
+                                  
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Τραύμα και Μετατραυματικό Σύνδρομο</h4>
+                         
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Διαταραχές Πρόσληψης Τροφής</h4>
+                              
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Υπερβολική Χρήση Διαδικτύου και Παιγνίων</h4>
+                              
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Σεξουαλικός Προσανατολισμός</h4>
+                              
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Διαπροσωπικές Σχέσεις</h4>
+                              
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Ενίσχυση Αυτοεκτίμησης</h4>
+                              
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Διεκδικητικότητα</h4>
+                              
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Εμπλουτισμός Δεξιοτήτων Ζωής (κοινωνικές και συναισθηματικές δεξιότητες)</h4>
+                              
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Εμπλουτισμός Δεξιοτήτων Ζωής (κοινωνικές και συναισθηματικές δεξιότητες)</h4>
+                              
+                                </div>
+                            </div>
+
+                            <div class="service-block col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="inner-box">
+                                    <div class="icon-box"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                                    <h4>Υποστήριξη Οικογένειας και Ψυχοεκπαίδευση Γονέων</h4>
+                              
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--Content Column-->
+                <div class="content-column clearfix">
+                    <div class="content-box">
+                        <div class="inner-box">
+                            <!--Section Title-->
+                            <div class="sec-title aligned-right">
+                                <h2>Ατομική <span>συνεδρία</span></h2>
+                            </div>
+                            <div class="text">
+Μέσα από την ατομική συνεδρία το άτομο έχει την δυνατότητα να διερευνήσει θέματα που τον απασχολούν και να μάθει να διαχειρίζεται δυσκολίες που έχουν προκύψει στην καθημερινότητά του εμπλουτίζοντας τις δεξιότητες του. Κατά την συνεδρία ο συμβουλευόμενος μπορεί να επικοινωνήσει και να διερευνήσει όσα τον απασχολούν σε ένα πλαίσιο που διέπεται από σεβασμό και εμπιστοσύνη. </div>
+
+                            <a href="{{url('/sessions')}}"><button class="btn">Περισσότερα</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!--about bg-->
+    <div class="bg-3" id="about-bg">
+        <div class="cover"></div>
+    </div>
+
     <!--about-->
     <div id="about">
 
@@ -10,7 +172,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
                     <div class="about-heading">
-                        <h2>about</h2>
+                        <h2>σχετικα με εμας</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus magna,malesuada porta elementum vitae.</p>
                     </div>
                 </div>
@@ -64,124 +226,6 @@
         </div>
     </div>
 
-    <!--about bg-->
-    <div class="bg-3" id="about-bg">
-        <div class="cover"></div>
-    </div>
-
-    <!--service-->
-    <div id="service">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-md-offset-3">
-                    <div class="service-heading">
-                        <h2>service</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus magna,malesuada porta elementum vitae.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--services wrapper-->
-        <section class="services-style-one">
-            <div class="outer-box clearfix">
-
-                <div class="services-column">
-                    <div class="content-outer">
-                        <div class="row clearfix">
-
-                            <div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
-                                    <h4>FINANCIAL PLANNING</h4>
-                                    <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. </div>
-                                </div>
-                            </div>
-
-                            <div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="fa fa-bar-chart" aria-hidden="true"></i></div>
-                                    <h4>BUSINESS PLANNING</h4>
-                                    <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. </div>
-                                </div>
-                            </div>
-
-                            <div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="fa fa-trophy" aria-hidden="true"></i></div>
-                                    <h4>WORK &amp; REDUNDANCY</h4>
-                                    <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. </div>
-                                </div>
-                            </div>
-
-                            <div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
-                                    <h4>MORTGAGE ADVISOR</h4>
-                                    <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. </div>
-                                </div>
-                            </div>
-
-                            <div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
-                                    <h4>RETIREMENT PLANNING</h4>
-                                    <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. </div>
-                                </div>
-                            </div>
-
-                            <div class="service-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="inner-box">
-                                    <div class="icon-box"><i class="fa fa-money" aria-hidden="true"></i></div>
-                                    <h4>SAVING AND INVESTING</h4>
-                                    <div class="text">Leverage agile frameworks to provide a robust synopsis for high level overviews. </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Content Column-->
-                <div class="content-column clearfix">
-                    <div class="content-box">
-                        <div class="inner-box">
-                            <!--Section Title-->
-                            <div class="sec-title aligned-right">
-                                <h2>Our Servi<span>ces</span></h2>
-                            </div>
-                            <div class="text">Lorem Ipsum is simply dummy text printing and typesetting industry. Lorem Ipsum has been industry's standard dummy text ever since 1500s, when an unknown printer specimen book. </div>
-
-                            <button class="btn">learn more</button>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </section>
-
-
-
-        <!--service gapping-->
-        <div class="service-footer hidden-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <div class="service-footer-left">
-                            <h3>Need to <span>Consult with us</span> ? Book an appointment</h3>
-                            <p>The Brady Bunch the Brady Bunch that's the way we all became the Brady Bunch</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-5">
-                        <div class="service-footer-right">
-                            <button class="btn">book now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!--portfolio-->
 <!--     <div id="portfolio">
@@ -288,5 +332,6 @@
     </div> -->
 
     @include('partials.contact_form')
-
+    @include('partials.contact')
+    
 @endsection

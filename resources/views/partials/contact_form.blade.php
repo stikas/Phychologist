@@ -1,9 +1,9 @@
 <!--contact form-->
-<div id="get-touch">
+<div id="get-in-touch">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-                <div class="get-touch-heading">
+                <div class="get-in-touch-heading">
                     <h2>Επικοινωνια</h2>
                 </div>
             </div>
