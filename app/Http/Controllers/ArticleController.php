@@ -49,9 +49,9 @@ class ArticleController extends Controller
      */
     public function sessions()
     {
-        $articles = Article::where('is_live', 1)->get();
+        //$articles = Article::where('is_live', 1)->get();
 
-        return view('sessions')->with(compact('articles'));
+        return view('sessions');
     }
 
    /**
