@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Article;
+use App\Maria;
 use Session;
 use Illuminate\Http\File;
 
@@ -168,4 +169,27 @@ class CMSController extends Controller
 
         return false;
     }
+
+    /**
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function sessionsUpdate()
+    {
+        $maria = Maria::find(1);
+        $articles = Article::where('is_live', 1)->get();
+        return view('sessions_update')->with(compact('articles', 'maria'));
+    }
+
+    public function updateSession(Request $request)
+    {
+        $maria = Maria::find(1);
+
+        $maria->session = $request->session;
+
+        $maria->save();
+       
+        return redirect('/sessions/update');
+    }
+       
 }

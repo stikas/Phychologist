@@ -13,9 +13,11 @@
                 <div class="footer-heading">
                     <h3><span>Τελευταία</span> άρθρα</h3>
                     <ul>
-                        @foreach($articles->reverse()->slice(0, 3) as $article)    
-                            <li><a href="{{ url('/article/'.$article->id)}}">{{$article->title}}</a></li>
-                        @endforeach
+                         
+                            <li><a href="">art 1</a></li>
+                            <li><a href="">art 2</a></li>
+                            <li><a href="">art 3</a></li>
+                        
                     </ul>
                    <!--  <ul>
                         <li><a href="#">Trends don't matter, but techniques do</a></li>

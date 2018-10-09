@@ -57,7 +57,7 @@
                         {!! Form::textarea('description', $article->description,array('required'=>'required', 'class'=>'form-control')) !!}
                     </div>
 
-                    {{ Form::submit('Edit the Article!', array('class' => 'btn btn-primary')) }}
+                    {{ Form::submit('Update', array('class' => 'btn btn-primary')) }}
 
                     {!! Form::close() !!}
 

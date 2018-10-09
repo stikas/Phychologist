@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Article;
+use App\Maria;
 
 class HomeController extends Controller
 {
@@ -24,7 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $maria = Maria::find(1);
         $articles = Article::where('is_live', 1)->get();
-        return view('home')->with(compact('articles'));
+        return view('home')->with(compact('articles', 'maria'));
     }
 }

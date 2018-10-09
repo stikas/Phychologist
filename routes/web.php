@@ -24,6 +24,8 @@ Route::group(['middleware' => 'web'], function () {
 	Route::auth();
 	Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 	Route::get('/cms', 'CMSController@index');
+	Route::get('/sessions/update', 'CMSController@sessionsUpdate');
+    Route::post('/sessions/update', 'CMSController@updateSession');
 
     Route::get('article/add', 'CMSController@create');
     Route::post('article/store', 'CMSController@store');

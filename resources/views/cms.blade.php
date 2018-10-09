@@ -1,7 +1,10 @@
 @extends('layouts.base')
 @section('content')
  
- <a href="article/add" style="margin-left: 20px"><Button class="btn btn-info"> Create Article </Button></a>
+ <a href="article/add" style="margin-left: 20px">
+    <Button class="btn btn-info"> Create Article </Button></a>
+ <a href="sessions/update" style="margin-left: 20px">
+    <Button class="btn btn-info" style="width:140px"> Update Sessions </Button></a>
 <div style="text-align:center" class="panel-body">
     <table id="datatable" class="table table-striped table-bordered">
         <thead>
