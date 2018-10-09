@@ -61,8 +61,8 @@ class ArticleController extends Controller
      */
     public function cv()
     {
-        $articles = Article::where('is_live', 1)->get();
+        //$articles = Article::where('is_live', 1)->get();
 
-        return view('cv')->with(compact('articles'));
+        return view('cv');
     }
 }

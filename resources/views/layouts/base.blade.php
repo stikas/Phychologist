@@ -37,7 +37,7 @@
 
     @yield('content')
 
-    @include('partials.footer', ['articles' => $articles])
+    @include('partials.footer')
 
     @include('partials.bottom_footer')
 

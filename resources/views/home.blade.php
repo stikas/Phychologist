@@ -1,4 +1,4 @@
-@extends('layouts.base', ['articles' => $articles])
+@extends('layouts.base')
 @section('content')
     
     @include('partials.slider')
